@@ -1,4 +1,4 @@
-
+/* Estilos globales */
 * {
     font-family: Arial, helvetica, sans-serif;
 }
@@ -8,30 +8,37 @@ body {
     color: wheat;
 }
 
+/* Foto */
 .mi_foto {
     width: 250px;
     border-radius: 15%;
 }
 
+/* Párrafos */
 p {
     font-size: 18px;
     line-height: 1.6;
     color: rgb(50, 50, 50);
 }
 
+/* Clase mi-clase (header y sección sobre mi) */
 .mi-clase {
     text-align: start;
     font-style: italic;
     font-size: larger;
 }
 
+/* Elemento con id mi-id */
 #mi-id {
     font-size: larger;
 }
+
+/* Enlaces dentro de mi-clase */
 .mi-clase a {
     color: #d5d2c8;
 }
 
+/* Formulario */
 input, textarea, button {
     font-size: larger;
 }
@@ -56,4 +63,49 @@ button {
 
 button:hover {
     background-color: rgb(56, 0, 0);
+}
+
+/* Display examples */
+.display-examples {
+    background-color: #6e8387;
+    color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.display-examples h2,
+.display-examples h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* Block */
+.block {
+    display: block;
+    background-color: #e1e4e8;
+    color: #333;
+    padding: 10px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+/* Inline */
+.inline {
+    display: inline;
+    background-color: #f5c27f;
+    color: #333;
+    padding: 5px 10px;
+    margin-right: 5px;
+}
+
+/* Inline-block */
+.inline-block {
+    display: inline-block;
+    background-color: #80aaff;
+    color: #fff;
+    padding: 10px;
+    width: 120px;
+    text-align: center;
+    margin-right: 5px;
+    border: 1px dashed #ccc;
 }
