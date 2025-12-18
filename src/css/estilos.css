@@ -1,6 +1,11 @@
 /* Estilos globales */
 * {
-    font-family: Arial, helvetica, sans-serif;
+     font-family: 'Montserrat', sans-serif;
+}
+.bbh-bogle-regular{
+    font-family: "BBH Bogle", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 body {
@@ -78,17 +83,25 @@ button:hover {
     margin-top: 20px;
     margin-bottom: 10px;
 }
-
-/* Block */
-.block {
+.caja {
     display: block;
-    background-color: #e1e4e8;
-    color: #333;
+    background-color: #f01f1f;
     padding: 10px;
-    margin-bottom: 5px;
     text-align: center;
 }
 
+.caja-block {
+    width: 100%;
+    position: relative;
+    top: 10px;
+    left: 20px;
+}
+.caja-block1 {
+    width: 100%;
+    position: sticky;
+    top: 10px;
+    left: 20px;
+}
 /* Inline */
 .inline {
     display: inline;
@@ -108,4 +121,59 @@ button:hover {
     text-align: center;
     margin-right: 5px;
     border: 1px dashed #ccc;
+}
+#box-model-demo {
+    margin-top: 40px;
+    padding: 20px;
+    /*border-top: 2px solid #ccc;*/
+}
+.box-demo {
+    width: 200px;
+    padding: 20px;
+    border: 5px solid #333;
+    margin: 15px;
+    background-color: #e6c927e5;
+    color: #000;
+}
+
+#box-sizing-demo {
+    margin-top: 40px;
+    
+}
+.box-cb, .box-bb {
+  
+    padding: 20px;
+    margin-bottom: 15px;
+    border: 5px solid #333;
+    background-color: #7ff5a1e5;
+    color: #000;
+}
+.box-cb {
+    width: 200px;
+    box-sizing: content-box;
+}
+
+.box-bb {
+    width: 200px;
+    box-sizing: border-box;
+    background-color: #1baa73;
+}
+h1{
+    color: tomato;
+}
+
+.mi-clase h1 {
+    color: yellow;
+}
+.mi-clase h1{
+    color: #243f5e;
+}
+li{
+    color: rgb(184, 42, 120) ;
+}
+.mi-clase li{
+    color: #135a25;
+}
+#mi-id{
+    color: #551a8b;
 }

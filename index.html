@@ -5,13 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./src/css/estilos.css">
     <link rel="shortcut icon" href="./src/icons/favicons.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=BBH+Bogle&display=swap" rel="stylesheet">
+
     <title>Mi blog</title>
+    <style>
+        li  {
+            color: rgb(250, 75, 198) ;
+            font-weight: bold;
+        }
+    </style>
 </head>
 <body>
     <header class="mi-clase">
-        <h1>Bienvenidos a mi blog</h1>
+        <h1 class="bbh-bogle-regular">Bienvenidos a mi blog</h1>
         <nav>
-            <a href="#Inicio">Inicio</a>
+            <a class="bbh-bogle-regular" href="#Inicio">Inicio</a>
             <a href="#sobre_mi">Acerca de</a>
             <a href="#contacto">Contacto</a>
         </nav>
@@ -19,12 +29,12 @@
 
     <main id="Inicio" class="start">
         <section>
-            <h2>Mi nombre es Juan Elias Corona Cuevas</h2>
+            <h2 class="bbh-bogle-regular">Mi nombre es Juan Elias Corona Cuevas</h2>
             <p>Soy el <em>alumno</em> más guapo de <strong>Dev.f</strong></p>
             <img class="mi_foto" src="./src/images/yo.jpg" alt="Fotografía del sensei Daniel Gloreia Florencio">
         </section>
     </main>
-
+    <h2 class="bbh-bogle-regular">sobre mi</h2>
     <section id="sobre_mi" class="mi-clase a">
         <p>Me gusta aprender cada día más y compartir mis conocimientos. Vendo hamburguesitas en mis tiempos libres. Soy un artista de medio tiempo. Soy técnico en relación de equipos. Me llaman todólogo.</p>
         <br>
@@ -44,7 +54,17 @@
             <li>Instagram: <a href="https://www.instagram.com/juan_ecc05/">juan_ecc05</a></li>
             <li>Github: <a href="https://github.com/JuanECC">Juan 🗿ECC</a></li>
         </ol>
+
+        <div>
+    <ul>
+        <li style="color: black;" >Artículos interesantes</li>
+        <li><a href="https://example.com/tutoriales">Tutoriales random</a></li>
+        <li><a href="https://example.com/juegos">Juegos online</a></li>
+
+    </ul>
+</div>
     </section>
+
 
     <section id="contacto">
         <h2>Contáctame</h2>
@@ -69,8 +89,8 @@
         <!-- Block -->
         <h3>display: block</h3>
         <p>Las cajas block ocupan todo el ancho disponible y se colocan una debajo de la otra:</p>
-        <div class="block">Caja BLOCK 1</div>
-        <div class="block">Caja BLOCK 2</div>
+        <div class="caja caja-block1">Caja BLOCK 1</div>
+        <div class="caja caja-block">Caja BLOCK 2</div>
 
         <!-- Inline -->
         <h3>display: inline</h3>
@@ -86,6 +106,27 @@
         <div class="inline-block">INLINE-BLOCK 2</div>
         <div class="inline-block">INLINE-BLOCK 3</div>
     </section>
+
+<section id="box-model-demo">
+    <h2>Demo: box Model</h2>
+    <div class="box-demo">
+        Soy una caja de ejemplo
+    </div>
+</section>
+
+<section id="box-sizing-demo">
+    <h2>Demo: box-sizing</h2>
+    <div class="box-cb">
+        content-box por defecto
+    </div>
+    <div class="box-bb">
+        border-box 
+
+    </div>
+</section>
+<section>
+    
+</section>
 
     <footer>
         <p>2025 Mi blog. Todos los derechos reservados.</p>
