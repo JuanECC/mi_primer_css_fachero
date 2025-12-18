@@ -9,21 +9,23 @@
 </head>
 <body>
     <header class="mi-clase">
-        <h1> Bienvenidos a mi blog</h1>
+        <h1>Bienvenidos a mi blog</h1>
         <nav>
-            <a href="#inicio">Inicio</a>
+            <a href="#Inicio">Inicio</a>
             <a href="#sobre_mi">Acerca de</a>
             <a href="#contacto">Contacto</a>
         </nav>
     </header>
+
     <main id="Inicio" class="start">
         <section>
             <h2>Mi nombre es Juan Elias Corona Cuevas</h2>
-            <p>Soy el <em> alumno</em> más guapo de <strong>Dev.f</strong></p>
+            <p>Soy el <em>alumno</em> más guapo de <strong>Dev.f</strong></p>
             <img class="mi_foto" src="./src/images/yo.jpg" alt="Fotografía del sensei Daniel Gloreia Florencio">
         </section>
     </main>
-    <div id="sobre_mi" class="mi-clase a">
+
+    <section id="sobre_mi" class="mi-clase a">
         <p>Me gusta aprender cada día más y compartir mis conocimientos. Vendo hamburguesitas en mis tiempos libres. Soy un artista de medio tiempo. Soy técnico en relación de equipos. Me llaman todólogo.</p>
         <br>
         <p>Mis pasatiempos son:</p>
@@ -37,14 +39,14 @@
             <li>Dibujar y pintar</li>
         </ul>
 
-        <p>Mis redes sociales son</p>
+        <p>Mis redes sociales son:</p>
         <ol>
             <li>Instagram: <a href="https://www.instagram.com/juan_ecc05/">juan_ecc05</a></li>
             <li>Github: <a href="https://github.com/JuanECC">Juan 🗿ECC</a></li>
         </ol>
-    </div>
+    </section>
 
-    <div id="contacto">
+    <section id="contacto">
         <h2>Contáctame</h2>
         <form action="#" method="post">
             <label for="nombre">Nombre</label><br>
@@ -55,9 +57,35 @@
 
             <label for="mensaje">Mensaje</label><br>
             <textarea id="mensaje" name="mensaje" rows="4" required></textarea><br>
+
             <button type="submit" value="Enviar">Enviar</button>
         </form>
-    </div>
+    </section>
+
+    <!-- Sección de ejemplos de display -->
+    <section class="display-examples">
+        <h2>Ejemplos de display</h2>
+
+        <!-- Block -->
+        <h3>display: block</h3>
+        <p>Las cajas block ocupan todo el ancho disponible y se colocan una debajo de la otra:</p>
+        <div class="block">Caja BLOCK 1</div>
+        <div class="block">Caja BLOCK 2</div>
+
+        <!-- Inline -->
+        <h3>display: inline</h3>
+        <p>Las cajas inline se comportan como texto: se ponen una junto a la otra y no respetan width/height:</p>
+        <span class="inline">INLINE 1</span>
+        <span class="inline">INLINE 2</span>
+        <span class="inline">INLINE 3</span>
+
+        <!-- Inline-block -->
+        <h3>display: inline-block</h3>
+        <p>Las cajas inline-block se alinean una junto a otra, pero sí respetan width y height:</p>
+        <div class="inline-block">INLINE-BLOCK 1</div>
+        <div class="inline-block">INLINE-BLOCK 2</div>
+        <div class="inline-block">INLINE-BLOCK 3</div>
+    </section>
 
     <footer>
         <p>2025 Mi blog. Todos los derechos reservados.</p>
