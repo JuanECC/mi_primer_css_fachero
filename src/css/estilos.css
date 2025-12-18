@@ -1,0 +1,59 @@
+
+* {
+    font-family: Arial, helvetica, sans-serif;
+}
+
+body {
+    background-color: #6e8387;
+    color: wheat;
+}
+
+.mi_foto {
+    width: 250px;
+    border-radius: 15%;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: rgb(50, 50, 50);
+}
+
+.mi-clase {
+    text-align: start;
+    font-style: italic; /
+    font-size: larger;
+}
+
+#mi-id {
+    font-size: larger;
+}
+.mi-clase a {
+    color: #d5d2c8;
+}
+
+input, textarea, button {
+    font-size: larger;
+}
+
+input, textarea {
+    width: 100%;
+    max-width: 400px;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: brown;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(56, 0, 0);
+}
