@@ -48,3 +48,67 @@ section {
     justify-content: flex-start; /* Alineacion horizontal ROW en fe*/
     align-items: flex-start; /* Alineacion vertical Column flex-directiom*/
 }
+
+/*Estilos clase 5*/
+.contenedor-centro {
+
+    border: 1px dashed #4b5563;
+    background: #0b1120;
+    height: 200px;
+    margin-top:-5 rem;
+
+    display: flex;
+    justify-content: center; /*Alineacion horizontal*/
+    align-items: center; /*Alineacion vertical*/
+
+}
+.btn-demo{
+    height: 35px;
+}
+.caja-small{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+
+}
+
+.contenedor-wrap {
+    border: 1px dashed #4b5563;
+    padding: 1 rem;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+.contenedor-align-self {
+    border: 1px dashed #4b5563;
+    padding: 1 rem;
+    height: 150px;
+
+    display: flex;
+    align-items: center; /*Alineacion del contenedor todos centrados verticalmente */
+}
+.caja-diferente {
+    align-self: flex-end; /*Alineacion individual de un elemento */
+    background-color: red;
+}
+.contenedor-grow{
+    border: 1px dashed #4b5563;
+    padding: 1 rem;
+
+    display: flex;
+}
+.contenedor-grwow .caja-grow{
+ width: 80PX;
+}
+.grow-1{
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+.grow-2{
+    flex-grow: 2;
+    flex-shrink: 1;
+}
+.grow-3{
+    flex-grow: 3;
+    flex-shrink: 3;
+}
